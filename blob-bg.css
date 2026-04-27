@@ -1,0 +1,94 @@
+#bg {
+    z-index: -1;
+    height: 100vh;
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    animation: moveShape 18s cubic-bezier(0.455, 0.05, 0.55, 0.95) infinite alternate;
+}
+
+.blob {
+    width: 500px;
+    aspect-ratio: 1/1;
+    background: linear-gradient(
+        rgba(109, 105, 106, 0.5) 0%,
+        rgba(162, 167, 165, 0.8) 40%,
+        rgba(218, 226, 223, 0.8) 100%
+);
+    border-radius: 30% 70% 70% 30% / 30% 40% 70% 70%;
+    filter: blur(20px);
+    animation: changeShape 6s linear infinite, rotateShape 12s linear infinite;
+    mix-blend-mode: exclusion;
+}
+
+@keyframes rotateShape {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes moveShape {
+    0%, 100% {
+        transform: translate(20%, 0);
+    }
+    25% {
+        transform: translate(35%, 5vh);
+    }
+    50% {
+        transform: translate(45%, 10vh);
+    }
+    75% {
+        transform: translate(25%, 15vh);
+    }
+}
+@keyframes changeShape {
+    0%, 100% {
+        border-radius: 30% 70% 70% 30% / 30% 40% 70% 70%;
+    }
+    20% {
+        border-radius: 40% 65% 50% 50% / 40% 35% 35% 65%;
+    }
+    40% {
+        border-radius: 35% 65% 65% 35% / 65% 50% 50% 25%;
+    }
+    60% {
+        border-radius: 40% 65% 50% 50% / 30% 30% 70% 75%;
+    }
+    80% {
+        border-radius: 40% 60% 40% 60% / 50% 50% 50% 60%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .blob {
+        width: 300px;
+
+    }
+
+    @keyframes moveShape {
+    0%, 100% {
+        transform: translate(20%, 10vh);
+    }
+    25% {
+        transform: translate(35%, 30vh);
+    }
+    50% {
+        transform: translate(25%, 40vh);
+    }
+    75% {
+        transform: translate(25%, 50vh);
+    }
+}
+}
+
+@media (max-width: 600px) {
+    .blob {
+        width: 250px;
+    }
+}
