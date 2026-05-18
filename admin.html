@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aissa CTR — Admin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Handlee&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+<!-- Lock screen -->
+<div id="lockscreen">
+  <div class="lock-card">
+    <div class="lock-icon">🔑</div>
+    <h1>Admin Panel</h1>
+    <p>Enter your GitHub Personal Access Token to manage thumbnails</p>
+    <input class="lock-input" type="password" id="tokenInput" placeholder="github_pat_..." autocomplete="off">
+    <div class="lock-error" id="lockError"></div>
+    <button class="btn-save" onclick="unlock()" style="width:100%;">Authenticate</button>
+  </div>
+</div>
+
+<header>
+  <div class="header-brand">
+    <div class="header-brand-dot"></div>
+    <div>
+      <div class="header-title">Aissa CTR — Admin</div>
+      <div class="header-sub">Thumbnail Manager</div>
+    </div>
+  </div>
+  <button class="btn-logout" onclick="logout()">Log out</button>
+</header>
+
+<div class="page">
+
+  <div class="instructions">
+    <div class="instructions-icon">💡</div>
+    <div>
+      <h2>How to update thumbnails</h2>
+      <p>
+        Add, remove or replace thumbnails in each row below. When done, click <strong>Save to Site</strong> — the site updates live in a few minutes.
+      </p>
+    </div>
+  </div>
+
+  <div class="track-section t1">
+    <div class="track-header">
+      <div class="track-header-left">
+        <span class="track-pill">Row 1</span>
+        <span class="track-count" id="count-track1">0 thumbnails</span>
+      </div>
+      <button class="btn-add" onclick="addCard('track1')">＋ Add</button>
+    </div>
+    <div class="thumbnail-grid" id="grid-track1"></div>
+  </div>
+
+  <div class="track-section t2">
+    <div class="track-header">
+      <div class="track-header-left">
+        <span class="track-pill">Row 2</span>
+        <span class="track-count" id="count-track2">0 thumbnails</span>
+      </div>
+      <button class="btn-add" onclick="addCard('track2')">＋ Add</button>
+    </div>
+    <div class="thumbnail-grid" id="grid-track2"></div>
+  </div>
+
+  <div class="track-section t3">
+    <div class="track-header">
+      <div class="track-header-left">
+        <span class="track-pill">Row 3</span>
+        <span class="track-count" id="count-track3">0 thumbnails</span>
+      </div>
+      <button class="btn-add" onclick="addCard('track3')">＋ Add</button>
+    </div>
+    <div class="thumbnail-grid" id="grid-track3"></div>
+  </div>
+
+  <div class="save-section">
+    <h2>Save to Site</h2>
+    <p>Pushes your changes directly to GitHub. the site updates automatically.</p>
+    <button class="btn-save" id="saveBtn" onclick="saveToGitHub()">🚀 Save to Site</button>
+    <div class="save-status" id="saveStatus"></div>
+  </div>
+
+</div>
+
+<div id="toast"></div>
+
+<script src="admin.js"></script>
+</body>
+</html>
