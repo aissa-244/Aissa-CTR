@@ -1,5 +1,5 @@
 var CONFIG = {
-    githubToken: "null",
+    githubToken: null,
     repo:        "aissa-244/Aissa-CTR",
     branch:      "main",
     filePath:    "thumbnails.js",
