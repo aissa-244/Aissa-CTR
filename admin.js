@@ -1,6 +1,6 @@
 var CONFIG = {
     githubToken: "null",
-    repo:        "empty-16/aissa-ctr-test",
+    repo:        "aissa-244/Aissa-CTR",
     branch:      "main",
     filePath:    "thumbnails.js",
   };
