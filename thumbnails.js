@@ -15,7 +15,7 @@ const THUMBNAILS = {
   track2: [
     { src: "thumbnails/11.jpg" , title: "Thumbnail 11" },
     { src: "thumbnails/12.jpg" , title: "Thumbnail 12" },
-    { src: "thumbnails/13.jpg" , title: "Thumbnail 13" },
+    { src: "thumbnails/vb (1).jpg" , title: "Thumbnail 13" },
     { src: "thumbnails/14.jpg" , title: "Thumbnail 14" },
     { src: "thumbnails/15.jpg" , title: "Thumbnail 15" },
     { src: "thumbnails/16.jpg" , title: "Thumbnail 16" },
