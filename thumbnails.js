@@ -33,7 +33,7 @@ const THUMBNAILS = {
     { src: "thumbnails/26.png" , title: "Thumbnail 26" },
     { src: "thumbnails/27.jpg" , title: "Thumbnail 27" },
     { src: "thumbnails/uggh_optimized_1000 (1).jpg" , title: "Thumbnail 28" },
-    { src: "thumbnails/29.jpg" , title: "Thumbnail 29" },
+    { src: "thumbnails/fourth.jpg" , title: "Thumbnail 29" },
     { src: "thumbnails/3.jpg" , title: "Thumbnail 30" }
   ],
 };
