@@ -20,7 +20,7 @@ const THUMBNAILS = {
     { src: "thumbnails/15.jpg" , title: "Thumbnail 15" },
     { src: "thumbnails/16.jpg" , title: "Thumbnail 16" },
     { src: "thumbnails/17.jpg" , title: "Thumbnail 17" },
-    { src: "thumbnails/18.jpg" , title: "Thumbnail 18" },
+    { src: "thumbnails/the final thumbnail 1.jpg" , title: "Thumbnail 18" },
     { src: "thumbnails/19.jpg" , title: "Thumbnail 19" },
     { src: "thumbnails/20.jpg" , title: "Thumbnail 20" }
   ],
