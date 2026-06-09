@@ -14,7 +14,7 @@ const THUMBNAILS = {
   ],
   track2: [
     { src: "thumbnails/11.jpg" , title: "Thumbnail 11" },
-    { src: "thumbnails/12.jpg" , title: "Thumbnail 12" },
+    { src: "thumbnails/bachar.jpg" , title: "Thumbnail 12" },
     { src: "thumbnails/vb (1).jpg" , title: "Thumbnail 13" },
     { src: "thumbnails/14.jpg" , title: "Thumbnail 14" },
     { src: "thumbnails/15.jpg" , title: "Thumbnail 15" },
@@ -33,7 +33,7 @@ const THUMBNAILS = {
     { src: "thumbnails/26.png" , title: "Thumbnail 26" },
     { src: "thumbnails/27.jpg" , title: "Thumbnail 27" },
     { src: "thumbnails/uggh_optimized_1000 (1).jpg" , title: "Thumbnail 28" },
-    { src: "thumbnails/fourth.jpg" , title: "Thumbnail 29" },
+    { src: "thumbnails/hgfgf.jpg" , title: "Thumbnail 29" },
     { src: "thumbnails/3.jpg" , title: "Thumbnail 30" }
   ],
 };
