@@ -8,7 +8,7 @@ const THUMBNAILS = {
     { src: "thumbnails/5.jpg" , title: "Thumbnail 5" },
     { src: "thumbnails/6.jpg" , title: "Thumbnail 6" },
     { src: "thumbnails/7.jpg" , title: "Thumbnail 7" },
-    { src: "thumbnails/8.jpg" , title: "Thumbnail 8" },
+    { src: "thumbnails/hg.jpg" , title: "Thumbnail 8" },
     { src: "thumbnails/9.jpg" , title: "Thumbnail 9" },
     { src: "thumbnails/10.jpg" , title: "Thumbnail 10" }
   ],
