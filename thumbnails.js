@@ -3,7 +3,7 @@ const THUMBNAILS = {
   track1: [
     { src: "thumbnails/1.jpg" , title: "Thumbnail 1" },
     { src: "thumbnails/2.jpg" , title: "Thumbnail 2" },
-    { src: "thumbnails/3.jpg" , title: "Thumbnail 3" },
+    { src: "thumbnails/snow again_11zon.jpg" , title: "Thumbnail 3" },
     { src: "thumbnails/4.jpg" , title: "Thumbnail 4" },
     { src: "thumbnails/5.jpg" , title: "Thumbnail 5" },
     { src: "thumbnails/6.jpg" , title: "Thumbnail 6" },
