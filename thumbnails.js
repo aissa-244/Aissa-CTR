@@ -1,7 +1,7 @@
 // Managed via admin.html — do not edit manually.
 const THUMBNAILS = {
   track1: [
-    { src: "thumbnails/117.jpg" , title: "Thumbnail 1" },
+    { src: "thumbnails/Pi7_image_tool.jpeg" , title: "Thumbnail 1" },
     { src: "thumbnails/4.jpg" , title: "Thumbnail 2" },
     { src: "thumbnails/snow again_11zon.jpg" , title: "Thumbnail 3" },
     { src: "thumbnails/forza5..jpg" , title: "Thumbnail 4" },
