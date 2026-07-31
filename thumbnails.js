@@ -5,7 +5,7 @@ const THUMBNAILS = {
     { src: "thumbnails/final (1).jpg" , title: "Thumbnail 2" },
     { src: "thumbnails/2df_1_optimized_1000.jpg" , title: "Thumbnail 3" },
     { src: "thumbnails/boxes (1).jpg" , title: "Thumbnail 4" },
-    { src: "thumbnails/5.jpg" , title: "Thumbnail 5" },
+    { src: "thumbnails/hujhub (1).jpg" , title: "Thumbnail 5" },
     { src: "thumbnails/6.jpg" , title: "Thumbnail 6" },
     { src: "thumbnails/7.jpg" , title: "Thumbnail 7" },
     { src: "thumbnails/bnm (1).jpg" , title: "Thumbnail 8" },
