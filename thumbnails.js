@@ -26,14 +26,14 @@ const THUMBNAILS = {
   ],
   track3: [
     { src: "thumbnails/mnnbn.jpg" , title: "Thumbnail 21" },
-    { src: "thumbnails/nitrothumbnail.jpg" , title: "Thumbnail 22" },
+    { src: "thumbnails/practsthumbnail_11zon.jpg" , title: "Thumbnail 22" },
     { src: "thumbnails/23.jpg" , title: "Thumbnail 23" },
     { src: "thumbnails/24.jpg" , title: "Thumbnail 24" },
     { src: "thumbnails/25.jpg" , title: "Thumbnail 25" },
     { src: "thumbnails/26.png" , title: "Thumbnail 26" },
     { src: "thumbnails/27.jpg" , title: "Thumbnail 27" },
     { src: "thumbnails/uggh_optimized_1000 (1).jpg" , title: "Thumbnail 28" },
-    { src: "thumbnails/hgfgf.jpg" , title: "Thumbnail 29" },
+    { src: "thumbnails/mrbeast thumbnail_11zon.jpg" , title: "Thumbnail 29" },
     { src: "thumbnails/3.jpg" , title: "Thumbnail 30" }
   ],
 };
