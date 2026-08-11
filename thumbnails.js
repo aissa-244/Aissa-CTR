@@ -4,13 +4,13 @@ const THUMBNAILS = {
     { src: "thumbnails/Pi7_image_tool.jpeg" , title: "Thumbnail 1" },
     { src: "thumbnails/final (1).jpg" , title: "Thumbnail 2" },
     { src: "thumbnails/2df_1_optimized_1000.jpg" , title: "Thumbnail 3" },
-    { src: "thumbnails/boxes (1).jpg" , title: "Thumbnail 4" },
+    { src: "thumbnails/hgdgf.jpg" , title: "Thumbnail 4" },
     { src: "thumbnails/hujhub (1).jpg" , title: "Thumbnail 5" },
     { src: "thumbnails/6.jpg" , title: "Thumbnail 6" },
     { src: "thumbnails/7.jpg" , title: "Thumbnail 7" },
     { src: "thumbnails/bnm (1).jpg" , title: "Thumbnail 8" },
     { src: "thumbnails/9.jpg" , title: "Thumbnail 9" },
-    { src: "thumbnails/10.jpg" , title: "Thumbnail 10" }
+    { src: "thumbnails/boxes.jpg" , title: "Thumbnail 10" }
   ],
   track2: [
     { src: "thumbnails/11.jpg" , title: "Thumbnail 11" },
